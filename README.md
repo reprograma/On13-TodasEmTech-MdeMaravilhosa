@@ -21,7 +21,7 @@
 3. Explicando sobre o projeto 
 4. Explicando passo a passo do projeto 
 5. Escolhendo a maravilhosa e colocando até terça-feira na planilha
-6. Colocando a foto da maravilhosa na pasta "img" do repositório
+6. Colocando a foto da maravilhosa na pasta "img" do drive
 7. Baixando o projeto e pegando base para suporte
 8. Tirar dúvidas e Subir o projeto Netlify 
 9. COLOCAR LINK NA PLANILHA PRA TIA ROS DEIXAR BONITO NA HOME DAS MARAVILHOSAS
@@ -38,6 +38,7 @@
 11. BRILHAR E APRESENTAR O PROJETO NA QUARTA (OPCIONAL) :sparkles:
 
  
-### Link Importante das entregas :rocket:
+### Links Importantes das entregas :rocket:
 * [Drive com Planilha com link do netlify](https://docs.google.com/spreadsheets/d/1hvmCmsDFAgVQbOe3PCcOLMFbpSn0L1n6hRyMT-eZM8w/edit?usp=sharing)
+* [Drive para colocar fotos das maravilhosas](https://drive.google.com/drive/folders/1tzh1K7QJewxFh9GJJTHhd_uRsj9_opr7?usp=sharing)
 
