@@ -3,7 +3,7 @@
 ## Aula de Projeto I M de Maravilhosa  :octocat:
 
 ### link do projeto 
-[Página principal M de maravilhosas](COLOCAR O LINK DO PROJETO GERAL DO NETLIFY AQUI)
+[Página principal M de maravilhosas](https://projeto-final-teens2-raissa-barata.netlify.app/)
 
 
 ### Links bacanas se bater uma dúvida
