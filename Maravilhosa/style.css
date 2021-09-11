@@ -1,9 +1,8 @@
-
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -12,9 +11,10 @@ a {
     margin: 2px;
 }
 
+
 /* NAVBAR */
 
-.navbar{
+.navbar {
     background-color: #C083B9;
     width: 100%;
     height: 85px;
@@ -25,37 +25,84 @@ a {
     padding: 5px;
 }
 
+
 /* -------------------------------------------------------------------------------- */
 
 
 /* HEADER */
 
+.header {
+    background-image: url(./img/backgroud_header_01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    height: 500px;
+    color: #ffffff;
+}
 
+.container_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.header_maravilhosa_img {
+    width: 90%;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.header_titulo {
+    width: 90%;
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 /* --- BOTAO --- */
-  
 
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #7F479B;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+}
 
-/*********** HEADER   *********/
-
+.header_button:hover {
+    background-color: #2e1842;
+    color: #ffffff;
+    transition: background-color .5s;
+}
 
 
 /* SECAO Maravilhosa */
 
 
-
 /* AUTORA */
 
 
-
 /* SECAO Recado */
-
 
 
 /* FOOTER */
 
 
 /* MEDIA QUERY */
-
-
