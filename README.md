@@ -3,7 +3,7 @@
 ## Aula de Projeto I M de Maravilhosa  :octocat:
 
 ### link do projeto 
-[Página principal M de maravilhosas](https://projeto-final-teens2-raissa-barata.netlify.app/)
+[Página principal M de maravilhosas](https://m-de-maravilhosa-on13.netlify.app/)
 
 
 ### Links bacanas se bater uma dúvida
@@ -26,7 +26,7 @@
 8. Tirar dúvidas e Subir o projeto Netlify 
 9. COLOCAR LINK NA PLANILHA PRA TIA ROS DEIXAR BONITO NA HOME DAS MARAVILHOSAS
 
-### Desafio extra - passo a passo da atividade  :rocket:
+### Desafio para casa - passo a passo da atividade  :rocket:
 
 1. Pegar Base do projeto 
 1. Deixar bem belo com CSS e flex Box 
