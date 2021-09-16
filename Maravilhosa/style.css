@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: 'Abel', sans-serif;
+
 }
 
 a {
@@ -11,6 +12,7 @@ a {
     color: inherit;
     margin: 2px;
 }
+
 
 li {
     list-style: none;
@@ -20,6 +22,10 @@ li {
 
 .navbar{
     background-color: #1C1C1C;
+/* NAVBAR */
+
+.navbar{
+    background-color: #C083B9;
     width: 100%;
     height: 85px;
 }
@@ -78,6 +84,7 @@ li {
 
 /* --- BOTAO --- */
 
+
 .header_button {
     margin: 30px 0;
     color: #ffffff;
@@ -96,11 +103,13 @@ li {
 }
 
 
+
 /*********** HEADER   *********/
 
 
 
 /* SECAO Maravilhosa */
+
 .maravilhosa {
     margin-top: 60px;
     display: flex;
@@ -208,6 +217,12 @@ li {
     align-items: center;
     gap: 20px;
 }
+=======
+
+
+
+/* AUTORA */
+
 
 /* SECAO Recado */
 
@@ -215,6 +230,7 @@ li {
 
 /* FOOTER */
 
+<
 .footer {
     display: flex;
     flex-direction: column;
@@ -359,4 +375,9 @@ li {
         
     }
 }
+
+
+/* MEDIA QUERY */
+
+
 
