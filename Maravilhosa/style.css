@@ -1,9 +1,9 @@
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -15,7 +15,8 @@ a {
 /* NAVBAR */
 
 .navbar{
-    background-color: #C083B9;
+    /*background-color: #f3bf77;*/
+    background-color: #422701;
     width: 100%;
     height: 85px;
 }
@@ -29,23 +30,217 @@ a {
 
 
 /* HEADER */
+.header {
+    background-color: #b4934ce3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    width: 100%;
+    height: 500px;
+    color: rgb(255, 255, 255);
+}
 
+.container_header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+        
+}
+
+/*.header_container_imagem{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}*/
+
+.header_maravilhosa_img{
+    width: 90%;
+    height: 220px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+
+.header_titulo {
+    width: 90%;
+    margin: 5px 10px 5px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
 
 
 
 /* --- BOTAO --- */
-  
 
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #7F479B;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+    box-shadow: 8px 8px 4px ;
+}
 
-/*********** HEADER   *********/
+.header_button:hover {
+    background-color: #2e1842;
+    color: #ffffff;
+    transition: background-color .5s;
+}
 
 
 
 /* SECAO Maravilhosa */
 
 
+.maravilhosa {
+    /*background-color: #f6e58d;*/
+    background: #fce4a9;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.container_maravilhosa {
+    text-align: center;
+    padding: 0.5%;
+}
+
+.maravilhosa_titulo{
+    color: #352501e3;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.maravilhosa_boxBorder{
+    border: 1.5px solid #0c0c0c;
+    margin: 42px;
+    padding: 30px;
+}
+
+.boxBorder_texto{
+    margin: 30px;
+    color: #8d6404e3;
+    text-align: center;
+}
+
+.container_suaHistoria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #352501e3;
+}
+
+.suaHistoria_imagem{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.suaHistoria_texto{
+    width: 100%;
+}
+
+.suaHistoria_titulo{
+    color: #352501e3;
+    padding-bottom: 10px;
+}
+
+.suaHistoria_paragrafo{
+    padding-bottom: 10px;
+}
+
+
+
 
 /* AUTORA */
+
+.autora {
+    background-color: #ffe197;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    padding: 60px;
+}
+
+.autora_titulo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #463102e3;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+.autora_sobre{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.autora_imagem {
+    width: 20%;
+    border-radius: 52%;
+    border: double;
+    color: #463102e3;
+    margin-right: 35px;
+}
+
+/* FOOTER */
+.footer {
+    background: #caaf69;
+    color: rgb(255, 255, 255);
+    
+}
+
+.footer_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer_links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+
+.footer_cc {
+    background: #422701;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
 
 
 
@@ -58,4 +253,115 @@ a {
 
 /* MEDIA QUERY */
 
+@media (min-width: 320px) and (max-width: 768px){
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    }
 
+    .container_header {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .autora_sobre{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .autora_descrição{
+        margin-top: 20px;
+    }
+    /*h3{
+        margin-top: 20px;
+
+    }*/
+
+    .autora_imagem {
+        width: 30%;
+        height: 30%;
+        border-radius: 52%;
+        border: double;
+        color: #463102e3;
+        margin-right: 35px;
+        margin-bottom: 30px;
+    }
+    
+
+    /*.header_maravilhosa_img{
+        width: 100%;
+        height: 380px;
+        margin-bottom: 180px;
+        margin-left: 8px;
+        flex-wrap: wrap;*/
+
+}
+
+/*@media (min-width: 768px){ 
+    .container_header {
+        display: flex;
+        /*flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*.container_header {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        padding: 30px;
+        
+    }
+
+    .header_maravilhosa_img{
+        width: 100%;
+        height: 380px;
+        margin-bottom: 180px;
+        margin-left: 8px;
+        flex-wrap: wrap;
+    }
+
+    .header_titulo {
+        width: 30%;
+        margin: 45px 0px 120px 0px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .suaHistoria_imagem {
+        width: 40%;
+    }
+
+    .container_suaHistoria{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 320px /*and max-width: 768px){
+    .container_header {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 30px;
+        
+    }
+
+    .header_maravilhosa_img{
+        width: 90%;
+        height: 220px;
+        margin-left: 20px;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+
+    
+}
